@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="converter">
+            <div class="heading">
+                <h2>Temperature Converter</h2>
+            </div>
+            <div class="input">
+                <h3 id="head2">Input in Degrees °C</h3>
+                <input type="number" id="converterdisplaycel">
+            </div>
+            <div class="button">
+                <button id="celcuis" onclick="tempconcel()">Convert</button>
+                <!-- <button id="clear" onclick="clearcel()">Clear</button> -->
+                <p id="displaycel"></p>
+            </div>
+            <div class="input">
+                <h3 id="head2">Input in Fahrenheit °F</h3>
+                <input type="number" id="converterdisplayfah">
+            </div>
+            <div class="button">
+                <button id="fahrenheit" onclick="tempconfah()">Convert</button>
+                <!-- <button id="clear" onclick="clearfah()">Clear</button> -->
+                <p id="displayfah"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./script/code.js"></script>
+</body>
+</html>
